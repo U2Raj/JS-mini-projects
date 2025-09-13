@@ -1,0 +1,91 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background: #f7f7fa;
+    color: #222;
+    min-height: 100vh;
+    padding: 40px 0;
+}
+
+/* Container styling */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 32px 24px;
+}
+
+/* Header */
+.container h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #4a90e2;
+}
+
+/* Create Notes button */
+.btn {
+    background: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-bottom: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn:hover {
+    background: #357abd;
+}
+
+/* Notes area */
+.notes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Individual note paragraph */
+.para {
+    background: #eaf6ff;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: #222;
+}
+
+/* Delete button */
+.delete {
+    background: #ff5c5c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-left: 16px;
+    transition: background 0.2s;
+}
+
+.delete:hover {
+    background: #d90429;
+}
